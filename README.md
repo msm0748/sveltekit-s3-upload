@@ -11,6 +11,9 @@ cd my-app
 
 # 깃 코드 가져오기
 git clone https://github.com/msm0748/sveltekit-s3-upload.git ./
+
+# 의존성 설치
+npm install
 ```
 
 ## 실행방법
