@@ -18,7 +18,7 @@ const s3Client = new S3Client({
 
 /** 원본 url을 가져옵니다. (보안적으로 좋지 않음) */
 function getPublicUrl(key: string): string {
-	const bucketUrl = `https://${S3_BUCKET_NAME}.s3.${S3_REGION}.amazonaws.com`;
+	const bucketUrl = `https://${PUBLIC_S3_BUCKET_NAME}.s3.${S3_REGION}.amazonaws.com`;
 	return `${bucketUrl}/${key}`;
 }
 
